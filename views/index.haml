@@ -5,55 +5,61 @@
 
     %title We Use PGP - Because privacy matters
   %body
-    #header.container
-      %hgroup
-        %h1
-          %a{href: "/"}WeUsePGP
+    #header
+      .container
+        %hgroup
+          %h1
+            %a{href: "/"}WeUsePGP
 
-      %nav#main-nav
-        %ul
+        %nav#main-nav
+          %ul
+            %li
+              %a{href: "#whatisit"} What is PGP ?
+            %li
+              %a{href: "#whyuseit"} Why use it ?
+            %li
+              %a{href: "#howto"} How to use it ?
+            %li
+              %a{href: "#more"} More
+
+    #whatisit
+      .container
+        %h1.main-title
+          %span What is PGP ?
+
+        .main-description
+          %p PGP is a computer program that helps you keeping your privacy...
+          %p Well, private.
+
+    #whyuseit
+      .container
+        %h1.main-title
+          %span Why use it ?
+
+        %ol.reasons
           %li
-            %a{href: "#whatisit"} What is PGP ?
+            %h2 Private
           %li
-            %a{href: "#whyuseit"} Why use it ?
+            %h2 Simple
           %li
-            %a{href: "#howto"} How to use it ?
-          %li
-            %a{href: "#more"} More
+            %h2 Free
 
-    #whatisit.container
-      %h1.main-title
-        %span What is PGP ?
+    #howto
+      .container
+        %h1.main-title
+          %span How to use it ?
 
-      .main-description
-        %p PGP is a computer program that helps you keeping your privacy...
-        %p Well, private.
+    #more
+      .container
+        %h1.main-title
+          %span Get more info
 
-    #whyuseit.container
-      %h1.main-title
-        %span Why use it ?
+    #footer
+      .container
+        .licence-info
+          This website is licenced under a
+          %a{href: "http://creativecommons.org/licenses/by-sa/3.0/"} Creative Commons by-sa 3.0 licence
 
-      %ol.reasons
-        %li
-          %h2 Private
-        %li
-          %h2 Simple
-        %li
-          %h2 Free
-
-    #howto.container
-      %h1.main-title
-        %span How to use it ?
-
-    #more.container
-      %h1.main-title
-        %span Get more info
-
-    #footer.container
-      .licence-info
-        This website is licenced under a
-        %a{href: "http://creativecommons.org/licenses/by-sa/3.0/"} Creative Commons by-sa 3.0 licence
-
-      .author
-        Website realised by
-        %a{href: "https://twitter.com/manudwarf"} @manudwarf
+        .author
+          Website realised by
+          %a{href: "https://twitter.com/manudwarf"} @manudwarf
