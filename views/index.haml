@@ -3,53 +3,57 @@
   %head
     %link{rel: "stylesheet", type: "text/css", href: "/style.css"}
 
-    %title We use PGP - Because privacy matters
+    %title We Use PGP - Because privacy matters
   %body
-    .container
+    #header.container
+      %hgroup
+        %h1
+          %a{href: "/"}WeUsePGP
 
-      #header
-        %hgroup
-          %h1
-            %a{href: "/"}WeUsePGP.info
-
-        %nav#main-nav
-          %ul
-            %li
-              %a{href: "#whatisit"} What is PGP ?
-            %li
-              %a{href: "#whyuseit"} Why use it ?
-            %li
-              %a{href: "#howto"} How to use it ?
-            %li
-              %a{href: "#more"} More
-
-      #whatisit
-        %h1.main-title What is it ?
-        %p.main-description
-          PGP is a computer protocol that helps you keeping your privacy... well, private.
-
-      #whyuseit
-        %h1.main-title Why use it ?
-
-        %ol.reasons
+      %nav#main-nav
+        %ul
           %li
-            %h2 Private
+            %a{href: "#whatisit"} What is PGP ?
           %li
-            %h2 Simple
+            %a{href: "#whyuseit"} Why use it ?
           %li
-            %h2 Free
+            %a{href: "#howto"} How to use it ?
+          %li
+            %a{href: "#more"} More
 
-      #howto
-        %h1.main-title How to use it ?
+    #whatisit.container
+      %h1.main-title
+        %span What is PGP ?
 
-      #more
-        %h1.main-title More Information
+      .main-description
+        %p PGP is a computer program that helps you keeping your privacy...
+        %p Well, private.
 
-      #footer
-        .licence-info
-          This website is licenced under a
-          %a{href: "http://creativecommons.org/licenses/by-sa/3.0/"} Creative Commons by-sa 3.0 licence
+    #whyuseit.container
+      %h1.main-title
+        %span Why use it ?
 
-        .author
-          Website realised by
-          %a{href: "https://twitter.com/manudwarf"} @manudwarf
+      %ol.reasons
+        %li
+          %h2 Private
+        %li
+          %h2 Simple
+        %li
+          %h2 Free
+
+    #howto.container
+      %h1.main-title
+        %span How to use it ?
+
+    #more.container
+      %h1.main-title
+        %span Get more info
+
+    #footer.container
+      .licence-info
+        This website is licenced under a
+        %a{href: "http://creativecommons.org/licenses/by-sa/3.0/"} Creative Commons by-sa 3.0 licence
+
+      .author
+        Website realised by
+        %a{href: "https://twitter.com/manudwarf"} @manudwarf

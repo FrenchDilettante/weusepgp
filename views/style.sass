@@ -1,13 +1,23 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700)
+$backgroundColor: #0B78BD
+$foregroundColor: white
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400)
 
 body
+  background: $backgroundColor
+  color: $foregroundColor
   font-family: "Roboto Slab", serif
+  font-weight: 300
+  margin: 0
+  padding: 0
 
 a
   color: inherit
 
 .container
+  clear: both
   margin: 0 auto
+  overflow: auto
   width: 960px
 
 #header
@@ -19,6 +29,9 @@ a
   hgroup
     float: left
 
+    h1
+      font-size: 28px
+
   #main-nav
     float: right
 
@@ -26,12 +39,40 @@ a
       display: inline-block
       margin-left: 14px
 
-h1
-  font-weight: normal
+h1, h2
+  font-weight: 100
+  margin: 0
+  text-shadow: 0 1px 0 #174e71
 
-  &.main-title
-    font-style: italic
-    text-align: center
+.main-description
+  font-size: 24px
+  font-weight: 100
+  margin-left: 440px
+  width: 380px
+
+  p
+    margin-bottom: 15px
+    margin-top: 0
+
+.main-title
+  font-size: 28px
+  font-style: italic
+  position: relative
+  text-align: center
+
+  &::before
+    border-bottom: 1px solid white
+    content: ""
+    opacity: 0.4
+    margin-top: 20px
+    position: absolute
+    left: 0
+    width: 100%
+    z-index: -1
+
+  span
+    background: $backgroundColor
+    padding: 0 15px
 
 nav
   ul
