@@ -5,49 +5,51 @@
 
     %title We use PGP - Because privacy matters
   %body
-    #header
-      %hgroup
-        %h1
-          %a{href: "/"}WeUsePGP.info
+    .container
 
-      %nav#main-nav
-        %ul
+      #header
+        %hgroup
+          %h1
+            %a{href: "/"}WeUsePGP.info
+
+        %nav#main-nav
+          %ul
+            %li
+              %a{href: "#whatisit"} What is PGP ?
+            %li
+              %a{href: "#whyuseit"} Why use it ?
+            %li
+              %a{href: "#howto"} How to use it ?
+            %li
+              %a{href: "#more"} More
+
+      #whatisit
+        %h1.main-title What is it ?
+        %p.main-description
+          PGP is a computer protocol that helps you keeping your privacy... well, private.
+
+      #whyuseit
+        %h1.main-title Why use it ?
+
+        %ol.reasons
           %li
-            %a{href: "#whatisit"} What is PGP ?
+            %h2 Private
           %li
-            %a{href: "#whyuseit"} Why use it ?
+            %h2 Simple
           %li
-            %a{href: "#howto"} How to use it ?
-          %li
-            %a{href: "#more"} More
+            %h2 Free
 
-    #whatisit
-      %h1.main-title What is it ?
-      %p.main-description
-        PGP is a computer protocol that helps you keeping your privacy... well, private.
+      #howto
+        %h1.main-title How to use it ?
 
-    #whyuseit
-      %h1.main-title Why use it ?
+      #more
+        %h1.main-title More Information
 
-      %ol.reasons
-        %li
-          %h2 Private
-        %li
-          %h2 Simple
-        %li
-          %h2 Free
+      #footer
+        .licence-info
+          This website is licenced under a
+          %a{href: "http://creativecommons.org/licenses/by-sa/3.0/"} Creative Commons by-sa 3.0 licence
 
-    #howto
-      %h1.main-title How to use it ?
-
-    #more
-      %h1.main-title More Information
-
-    #footer
-      .licence-info
-        This website is licenced under a
-        %a{href: "http://creativecommons.org/licenses/by-sa/3.0/"} Creative Commons by-sa 3.0 licence
-
-      .author
-        Website realised by
-        %a{href: "https://twitter.com/manudwarf"} @manudwarf
+        .author
+          Website realised by
+          %a{href: "https://twitter.com/manudwarf"} @manudwarf
