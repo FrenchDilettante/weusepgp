@@ -16,7 +16,7 @@ a
 
 .container
   clear: both
-  margin: 0 auto
+  margin: 0 auto 30px
   overflow: auto
   width: 960px
 
@@ -32,11 +32,19 @@ a
   a
     text-decoration: none
 
+  .container
+    margin-bottom: 0
+
+  .flattr
+    float: right
+    margin-top: 42px
+
   hgroup
     float: left
 
     h1
       font-size: 28px
+      margin-top: 30px
 
 h1, h2
   font-weight: 100
@@ -61,7 +69,7 @@ h1, h2
 .main-title
   font-size: 28px
   font-style: italic
-  margin: 50px 0 30px
+  margin: 20px 0 30px
   position: relative
   text-align: center
 
@@ -118,3 +126,4 @@ nav
     &.selected
       background: $foregroundColor
       color: $backgroundColor
+      cursor: default
