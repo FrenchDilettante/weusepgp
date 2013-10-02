@@ -54,6 +54,13 @@ a
       padding-left: 10px
       opacity: 0.7
 
+#help
+  background: desaturate(lighten($backgroundColor, 25%), 45%)
+  text-align: center
+
+  .container
+    margin-bottom: 0
+
 .hidden
   display: none
 
@@ -62,6 +69,7 @@ a
     clear: both
     @include reset-list
     margin-top: 30px
+    min-height: 230px
 
     .howto
       overflow: auto
@@ -81,6 +89,16 @@ a
         float: right
         text-align: center
         width: 400px
+
+      &.not-available
+        padding-top: 50px
+        text-align: center
+
+        span
+          background: darken($backgroundColor, 5%)
+          border-radius: 2px
+          display: inline-block
+          padding: 20px 40px
 
 h1, h2, h3
   font-weight: 300

@@ -12,6 +12,13 @@
     %meta{charset: "utf-8"}
     %meta{name: "description", content: "Explain the basics of PGP encryption and signature and gives the tools to use them."}
   %body
+    #help
+      .container
+        Hello ! This website is a Work In Progress. If you like it, you're welcome to improve it !
+
+    %a{href: "https://github.com/manudwarf/weusepgp"}
+      %img{style: "position: absolute; top: 0; right: 0; border: 0;", src: "https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png", alt: "Fork me on GitHub"}
+
     #header
       .container
         .hgroup
@@ -92,8 +99,8 @@
                 .howto-illustration
                   %img{border: "0", src: "#{howto["illustration"]}"}
 
-          %li.not-available.hidden
-            Not available yet
+          %li.howto.not-available.hidden
+            %span Not available yet
 
     #more
       .container
