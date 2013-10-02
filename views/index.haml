@@ -4,6 +4,9 @@
     %link{rel: "stylesheet", type: "text/css", href: "/style.css"}
     %link{rel: "icon", type: "image/png", href: "/favicon.png"}
 
+    %script{src: "/js/jquery.js"}
+    %script{src: "/js/weusepgp.js"}
+
     %title Because privacy matters - We Use PGP
   %body
     #header
@@ -50,20 +53,26 @@
         %nav.select-usage
           For
           %ul
-            %li.usage-email.selected emails
-            %li.usage-chat chat
-            %li.usage-calls calls
-            %li.usage-file files
-            %li.usage-device devices
+            %li.selected{data: {usage: "emails"}} emails
+            %li{data: {usage: "chat"}} chat
+            %li{data: {usage: "calls"}} calls
+            %li{data: {usage: "file"}} files
+            %li{data: {usage: "device"}} devices
 
         %nav.select-platform
           On
           %ul
-            %li.platform-windows.selected Windows
-            %li.platform-macos MacOS
-            %li.platform-linux Linux
-            %li.platform-iphone iPhone
-            %li.platform-android Android
+            %li.selected{data: {platform: "windows"}} Windows
+            %li{data: {platform: "macos"}} MacOS
+            %li{data: {platform: "linux"}} Linux
+            %li{data: {platform: "iphone"}} iPhone
+            %li{data: {platform: "android"}} Android
+
+        %ul.howtos
+          %li{data: {usage: "emails", platform: "windows"}}
+            Windows emails
+          %li.not-available.hidden
+            Not available yet
 
     #more
       .container
