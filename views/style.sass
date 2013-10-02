@@ -111,10 +111,10 @@ nav
 
 .select-platform,
 .select-usage
+  float: left
   margin-bottom: 6px
-
-  ul, li
-    display: inline-block
+  text-align: center
+  width: 50%
 
   li
     background: darken($backgroundColor, 5%)
@@ -127,3 +127,9 @@ nav
       background: $foregroundColor
       color: $backgroundColor
       cursor: default
+
+  ul
+    margin-left: 4px
+
+  ul, li
+    display: inline-block
