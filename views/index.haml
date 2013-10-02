@@ -69,7 +69,7 @@
               %li{data: {usage: "chat"}} chat
               %li{data: {usage: "calls"}} calls
               %li{data: {usage: "file"}} files
-              %li{data: {usage: "device"}} devices
+              %li{data: {usage: "devices"}} devices
 
           %nav.select-platform
             On
@@ -82,11 +82,18 @@
 
         %ul.howtos
           %li.howto{data: {usage: "emails", platform: "windows,linux,macos"}}
+            .howto-description
+              %h3
+                %a{href: "https://www.enigmail.net/home/index.php", target: "_blank"} Enigmail
+              %p Enigmail is a data encryption and decryption extension for Mozilla Thunderbird that provides OpenPGP public key e-mail encryption and signing. Enigmail works under Microsoft Windows, Unix-like, and Mac OS operating systems.
             .howto-preview
               %img{border: "0", src: "/images/enigmail.png"}
 
-            %h3 Enigmail
-            %p Enigmail is a Thunderbird plugin blah blah.
+          %li.howto.hidden{data: {usage: "devices", platform: "windows,linux,macos"}}
+            .howto-description
+              %h3
+                %a{href: "http://www.truecrypt.org/", target: "_blank"} TrueCrypt
+              %p TrueCrypt is a freeware application used for on-the-fly encryption (OTFE). It can create a virtual encrypted disk within a file or encrypt a partition or the entire storage device.
 
           %li.not-available.hidden
             Not available yet
