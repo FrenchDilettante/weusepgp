@@ -61,8 +61,22 @@ a
   .howtos
     clear: both
     @include reset-list
+    margin-top: 30px
 
-h1, h2
+    .howto
+      overflow: auto
+
+      h3
+        font-size: 24px
+        margin-top: 20px
+
+      .howto-preview
+        float: left
+        margin-right: 20px
+        text-align: center
+        width: 400px
+
+h1, h2, h3
   font-weight: 300
   margin: 0
   text-shadow: 0 1px 0 #174e71
@@ -140,6 +154,9 @@ nav
   p
     line-height: 1.4em
     padding: 0 10px
+
+.select-howto
+  overflow: auto
 
 .select-platform,
 .select-usage
