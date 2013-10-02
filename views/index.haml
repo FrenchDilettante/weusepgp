@@ -81,19 +81,16 @@
               %li{data: {platform: "android"}} Android
 
         %ul.howtos
-          %li.howto{data: {usage: "emails", platform: "windows,linux,macos"}}
-            .howto-description
-              %h3
-                %a{href: "https://www.enigmail.net/home/index.php", target: "_blank"} Enigmail
-              %p Enigmail is a data encryption and decryption extension for Mozilla Thunderbird that provides OpenPGP public key e-mail encryption and signing. Enigmail works under Microsoft Windows, Unix-like, and Mac OS operating systems.
-            .howto-preview
-              %img{border: "0", src: "/images/enigmail.png"}
-
-          %li.howto.hidden{data: {usage: "devices", platform: "windows,linux,macos"}}
-            .howto-description
-              %h3
-                %a{href: "http://www.truecrypt.org/", target: "_blank"} TrueCrypt
-              %p TrueCrypt is a freeware application used for on-the-fly encryption (OTFE). It can create a virtual encrypted disk within a file or encrypt a partition or the entire storage device.
+          - @howtos.each do |howto|
+            %li.howto{data: {usages: "#{howto["usages"]}", platforms: "#{howto["platforms"]}"}}
+              .howto-description
+                %h3
+                  %a{href: "#{howto["links"]["homepage"]}", target: "_blank"}
+                    = howto["name"]
+                %p= howto["description"]
+              - if howto["illustration"]
+                .howto-illustration
+                  %img{border: "0", src: "#{howto["illustration"]}"}
 
           %li.not-available.hidden
             Not available yet

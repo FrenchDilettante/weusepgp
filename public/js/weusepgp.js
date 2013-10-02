@@ -3,7 +3,7 @@ $(function() {
   var updateHowTo = function() {
     var platform = $(".select-platform li.selected").attr("data-platform"),
         usage = $(".select-usage li.selected").attr("data-usage"),
-        howto = $(".howtos [data-platform*="+platform+"][data-usage*="+usage+"]"),
+        howto = $(".howtos [data-platforms*="+platform+"][data-usages*="+usage+"]"),
         notAvailable = $(".howtos .not-available");
 
     $(".howtos li").hide();
@@ -29,5 +29,7 @@ $(function() {
 
     updateHowTo();
   });
+
+  updateHowTo();
 
 });

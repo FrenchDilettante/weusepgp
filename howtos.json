@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Enigmail",
+    "platforms": "windows,linux,macos",
+    "usages": "emails",
+    "illustration": "/images/enigmail.png",
+    "description": "Enigmail is a data encryption and decryption extension for Mozilla Thunderbird that provides OpenPGP public key e-mail encryption and signing. Enigmail works under Microsoft Windows, Unix-like, and Mac OS operating systems.",
+    "links": {
+      "homepage": "https://www.enigmail.net/home/index.php"
+    }
+  },
+  {
+    "name": "TrueCrypt",
+    "platforms": "windows,linux,macos",
+    "usages": "devices",
+    "description": "TrueCrypt is a freeware application used for on-the-fly encryption (OTFE). It can create a virtual encrypted disk within a file or encrypt a partition or the entire storage device.",
+    "links": {
+      "homepage": "http://www.truecrypt.org/"
+    }
+  }
+]
