@@ -8,5 +8,5 @@ set :environment, :production
 
 disable :run, :reload
 
-require 'weusepgp' # replace this with your sinatra app file
+require './weusepgp.rb' # replace this with your sinatra app file
 run Sinatra::Application
