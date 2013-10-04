@@ -17,5 +17,23 @@
     "links": {
       "homepage": "http://www.truecrypt.org/"
     }
+  },
+  {
+    "name": "GPG Tools for Mac",
+    "platforms": "macos",
+    "usages": "emails,files,devices",
+    "description": "Everything you need to get started with secure communication and encrypting files in one simple package.",
+    "links": {
+      "homepage": "https://gpgtools.org/"
+    }
+  },
+  {
+    "name": "APG",
+    "platforms": "android",
+    "usages": "emails,files",
+    "description": "There's no public key encryption for Android yet, but that's an important feature for many of us. APG tries to fill that void, with new features quickly being added.",
+    "links": {
+      "homepage": "http://www.thialfihar.org/projects/apg/"
+    }
   }
 ]
