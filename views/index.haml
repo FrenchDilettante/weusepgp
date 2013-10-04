@@ -26,6 +26,32 @@
             %a{href: "/"} WeUsePGP
           .subtitle Because privacy matters
 
+        %nav.social-links
+          %ul
+            %li
+              %a{href: "https://twitter.com/share?text=#{CGI.escape "What is PGP? How to use it to protect your privacy?"}&url=#{CGI.escape "http://weusepgp.info"}&via=manudwarf", target: "_blank", rel: "nofollow"}
+                %img{border: "none", src: "/images/twitter_icon.png", alt: "Twitter"}
+
+            %li
+              %a{href: "https://www.facebook.com/sharer.php?u=#{CGI.escape "http://weusepgp.info"}&t=#{CGI.escape "What is PGP? How to use it to protect your privacy?"}", target: "_blank", rel: "nofollow"}
+                %img{border: "none", src: "/images/facebook_icon.png", alt: "Facebook"}
+
+            %li
+              %a{href: "https://plus.google.com/share?url=#{CGI.escape "http://weusepgp.info"}", target: "_blank", rel: "nofollow"}
+                %img{border: "none", src: "/images/gplus_icon.png", alt: "Google Plus"}
+
+            %li
+              %a{href: "https://www.linkedin.com/shareArticle?mini=true&url=#{CGI.escape "http://weusepgp.info"}&title=#{CGI.escape "What is PGP? How to use it to protect your privacy?"}", target: "_blank", rel: "nofollow"}
+                %img{border: "none", src: "/images/linkedin_icon.png", alt: "Linked In"}
+
+            %li
+              %a{href: "mailto:?subject=#{CGI.escape "What is PGP? How to use it to protect your privacy?"}&body=#{CGI.escape "http://weusepgp.info"}", target: "_blank", rel: "nofollow"}
+                %img{border: "none", src: "/images/email_icon.png", alt: "Email"}
+
+            %li
+              %a{href: "https://flattr.com/submit/auto?user_id=manudwarf&url=http%3A%2F%2Fweusepgp.info%2F", target: "_blank", rel: "nofollow"}
+                %img{border: "none", src: "/images/flattr_icon.png", alt: "Flattr"}
+
     #whatisit
       .container
         %h1.main-title
@@ -39,7 +65,7 @@
           %ul
             %li
               %h2 Encryption
-              %p Using military-class algorithms, your files and communications will be readable only by the person that you want to.
+              %p Using strong algorithms, your files and communications will be readable only by the person that you want to.
 
             %li
               %h2 Signature
@@ -91,10 +117,9 @@
           - @howtos.each do |howto|
             %li.howto{data: {usages: "#{howto["usages"]}", platforms: "#{howto["platforms"]}"}}
               .howto-description
-                %h3
-                  %a{href: "#{howto["links"]["homepage"]}", target: "_blank"}
-                    = howto["name"]
+                %h3= howto["name"]
                 %p= howto["description"]
+                %a.homepage{href: "#{howto["links"]["homepage"]}", target: "_blank"} Visit website
               - if howto["illustration"]
                 .howto-illustration
                   %img{border: "0", src: "#{howto["illustration"]}"}
