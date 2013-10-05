@@ -95,7 +95,7 @@
         .select-howto
 
           %nav.select-usage
-            For
+            = t 'howtos_for'
             %ul
               %li.selected{data: {usage: "emails"}}= t 'usage_emails'
               %li{data: {usage: "chat"}}= t 'usage_chat'
@@ -104,7 +104,7 @@
               %li{data: {usage: "devices"}}= t 'usage_devices'
 
           %nav.select-platform
-            On
+            = t 'howtos_on'
             %ul
               %li.selected{data: {platform: "windows"}}= t 'platform_windows'
               %li{data: {platform: "macos"}}= t 'platform_macos'

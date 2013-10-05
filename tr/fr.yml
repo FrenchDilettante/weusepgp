@@ -1,0 +1,55 @@
+fr:
+  meta_description: "Explique les basiques du chiffrement et de la signature PGP et donne les outils pour les utiliser."
+  meta_title: "Parce que la vie privée compte - We Use PGP"
+
+  help_contribute: "Salut ! Ce site est en plein chantier. Si vous l'aimez, vous êtes le bienvenu pour l'améliorer !"
+
+  header_subtitle: "Parce que la vie privée compte"
+
+  share_text: "Qu'est-ce que PGP ? Comment l'utiliser pour protéger votre privée ?"
+
+  whatisit_title: "Qu'est-ce que PGP ?"
+  whatisit_description_1: "PGP est un outil informatique pour garder votre vie privée..."
+  whatisit_description_2: "Eh bien, privée."
+
+  uses_encryption_title: "Chiffrement"
+  uses_encryption_description: "Grâce à des algorithmes éprouvés, vos fichiers et vos communications ne seront lisibles que par ceux que vous le voulez."
+
+  uses_signing_title: "Signature"
+  uses_signing_description: "Tout comme une signature manuscrite, une signature numérique prouve que seul l'auteur a pu l'écrire. PGP renforce la confiance."
+
+  why_use_it: "Pourquoi l'utiliser ?"
+
+  reasons_private_title: "Privé"
+  reasons_private_description: "Parce que la vie privée compte. Internet est formidable pour communiquer, il est aussi facile de se faire espionner par des amis curieux, des voisins ou des gouvernements."
+  reasons_simple_title: "Simple"
+  reasons_simple_description: "Ne changez ni vos habitudes, ni vos emails ni vos contacts. La seule différence est que est que si quelqu'un d'autre utilise PGP, votre conversation restera privée."
+  reasons_free_title: "Libre"
+  reasons_free_description: "PGP est libre et gratuit. Vous n'avez pas besoin de payer quoi que ce soit et les spécifications sont ouvertes et testées par une communauté mondiale."
+
+  how_to_use_it: "Comment l'utiliser ?"
+
+  usage_emails: "emails"
+  usage_chat: "chat"
+  usage_calls: "appels"
+  usage_files: "fichiers"
+  usage_devices: "appareils"
+
+  platform_windows: "Windows"
+  platform_macos: "MacOS"
+  platform_linux: "Linux"
+  platform_iphone: "iPhone"
+  platform_android: "Android"
+
+  howtos_for: "Pour"
+  howtos_on: "Sur"
+  howtos_website: "Visiter le site web"
+  howtos_not_available: "Pas encore disponible"
+
+  more_info_title: "Informations supplémentaires"
+  more_links_join_local: "Rejoindre une "
+
+  license_info: "Ce site est publié sous"
+  license_cc: "Licence Creative Commons by-sa 3.0"
+
+  author: "Site réalisé par"
