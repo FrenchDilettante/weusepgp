@@ -1,0 +1,53 @@
+en:
+  meta_description: "Explain the basics of PGP encryption and signature and gives the tools to use them."
+  meta_title: "Because privacy matters - We Use PGP"
+
+  help_contribute: "Hello ! This website is a Work In Progress. If you like it, you're welcome to improve it!"
+
+  header_subtitle: "Because privacy matters"
+
+  share_text: "What is PGP? How to use it to protect your privacy?"
+
+  whatisit_title: "What is PGP?"
+  whatisit_description_1: "PGP is a computer program that helps you keeping your privacy..."
+  whatisit_description_2: "Well, private."
+
+  uses_encryption_title: "Encryption"
+  uses_encryption_description: "Using strong algorithms, your files and communications will be readable only by the person that you want to."
+
+  uses_signing_title: "Signature"
+  uses_signing_description: "Just like handwritten signature, digital signature proves that only the emitter could have sent this. It strenghten trust."
+
+  why_use_it: "Why use it?"
+
+  reasons_private_title: "Private"
+  reasons_private_description: "Simply because privacy matters. Internet is a wonderful tool to communicate, it's also very easy to get spied on by curious friends, neighbours or governements."
+  reasons_simple_title: "Simple"
+  reasons_simple_description: "Don't change your habits, your emails or your contacts. The only difference is that if you and someone else use PGP, your conversation will stay private."
+  reasons_free_title: "Free"
+  reasons_free_description: "PGP is free as in free beer and free speech. You don't have to pay anything and the protocol specifications are open and tested by a worldwide community."
+
+  how_to_use_it: "How to use it?"
+
+  usage_emails: "emails"
+  usage_chat: "chat"
+  usage_calls: "calls"
+  usage_files: "files"
+  usage_devices: "devices"
+
+  platform_windows: "Windows"
+  platform_macos: "MacOS"
+  platform_linux: "Linux"
+  platform_iphone: "iPhone"
+  platform_android: "Android"
+
+  howtos_website: "Visit website"
+  howtos_not_available: "Not available yet"
+
+  more_info_title: "Get more info"
+  more_links_join_local: "Join a local"
+
+  license_info: "This website is licensed under a"
+  license_cc: "Creative Commons by-sa 3.0 license"
+
+  author: "Website realised by"

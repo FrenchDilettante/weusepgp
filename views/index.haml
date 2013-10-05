@@ -7,14 +7,14 @@
     %script{src: "/js/jquery.js"}
     %script{src: "/js/weusepgp.js"}
 
-    %title Because privacy matters - We Use PGP
+    %title= t 'meta_title'
 
     %meta{charset: "utf-8"}
-    %meta{name: "description", content: "Explain the basics of PGP encryption and signature and gives the tools to use them."}
+    %meta{name: "description", content: "#{t 'meta_description'}"}
   %body
     #help
       .container
-        Hello ! This website is a Work In Progress. If you like it, you're welcome to improve it!
+        = t 'help_contribute'
 
     %a{href: "https://github.com/manudwarf/weusepgp"}
       %img{style: "position: absolute; top: 0; right: 0; border: 0;", src: "https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png", alt: "Fork me on GitHub"}
@@ -24,16 +24,16 @@
         .hgroup
           %h1
             %a{href: "/"} WeUsePGP
-          .subtitle Because privacy matters
+          .subtitle= t 'header_subtitle'
 
         %nav.social-links
           %ul
             %li
-              %a{href: "https://twitter.com/share?text=#{CGI.escape "What is PGP? How to use it to protect your privacy?"}&url=#{CGI.escape "http://weusepgp.info"}&via=manudwarf", target: "_blank", rel: "nofollow"}
+              %a{href: "https://twitter.com/share?text=#{CGI.escape t('share_text')}&url=#{CGI.escape "http://weusepgp.info"}&via=manudwarf", target: "_blank", rel: "nofollow"}
                 %img{border: "none", src: "/images/twitter_icon.png", alt: "Twitter"}
 
             %li
-              %a{href: "https://www.facebook.com/sharer.php?u=#{CGI.escape "http://weusepgp.info"}&t=#{CGI.escape "What is PGP? How to use it to protect your privacy?"}", target: "_blank", rel: "nofollow"}
+              %a{href: "https://www.facebook.com/sharer.php?u=#{CGI.escape "http://weusepgp.info"}&t=#{CGI.escape t('share_text')}", target: "_blank", rel: "nofollow"}
                 %img{border: "none", src: "/images/facebook_icon.png", alt: "Facebook"}
 
             %li
@@ -41,11 +41,11 @@
                 %img{border: "none", src: "/images/gplus_icon.png", alt: "Google Plus"}
 
             %li
-              %a{href: "https://www.linkedin.com/shareArticle?mini=true&url=#{CGI.escape "http://weusepgp.info"}&title=#{CGI.escape "What is PGP? How to use it to protect your privacy?"}", target: "_blank", rel: "nofollow"}
+              %a{href: "https://www.linkedin.com/shareArticle?mini=true&url=#{CGI.escape "http://weusepgp.info"}&title=#{CGI.escape t('share_text')}", target: "_blank", rel: "nofollow"}
                 %img{border: "none", src: "/images/linkedin_icon.png", alt: "Linked In"}
 
             %li
-              %a{href: "mailto:?subject=#{CGI.escape "What is PGP? How to use it to protect your privacy?"}&body=#{CGI.escape "http://weusepgp.info"}", target: "_blank", rel: "nofollow"}
+              %a{href: "mailto:?subject=#{CGI.escape t('share_text')}&body=#{CGI.escape "http://weusepgp.info"}", target: "_blank", rel: "nofollow"}
                 %img{border: "none", src: "/images/email_icon.png", alt: "Email"}
 
             %li
@@ -55,63 +55,62 @@
     #whatisit
       .container
         %h1.main-title
-          %span What is PGP?
+          %span= t 'whatisit_title'
 
         .main-description
-          %p PGP is a computer program that helps you keeping your privacy...
-          %p Well, private.
+          %p= t 'whatisit_description_1'
+          %p= t 'whatisit_description_2'
 
         .main-uses
           %ul
             %li
-              %h2 Encryption
-              %p Using strong algorithms, your files and communications will be readable only by the person that you want to.
+              %h2= t 'uses_encryption_title'
+              %p= t 'uses_encryption_description'
 
             %li
-              %h2 Signature
-              %p Just like handwritten signature, digital signature proves that only the emitter could have sent this. It strenghten trust.
+              %h2= t 'uses_signing_title'
+              %p= t 'uses_signing_description'
 
     #whyuseit
       .container
         %h1.main-title
-          %span Why use it?
+          %span= t 'why_use_it'
 
         %ol.reasons
           %li
-            %h2 Private
-            %p Simply because privacy matters. Internet is a wonderful tool to communicate, it's also very easy to get spied on by curious friends, neighbours or governements.
+            %h2= t 'reasons_private_title'
+            %p= t 'reasons_private_description'
           %li
-            %h2 Simple
-            %p Don't change your habits, your emails or your contacts. The only difference is that if you and someone else use PGP, your conversation will stay private.
-
+            %h2= t 'reasons_simple_title'
+            %p= t 'reasons_simple_description'
           %li
-            %h2 Free
-            %p PGP is free as in free beer and free speech. You don't have to pay anything and the protocol specifications are open and tested by a worldwide community.
+            %h2= t 'reasons_free_title'
+            %p= t 'reasons_free_description'
 
     #howto
       .container
         %h1.main-title
-          %span How to use it?
+          %span= t 'how_to_use_it'
 
         .select-howto
 
           %nav.select-usage
             For
             %ul
-              %li.selected{data: {usage: "emails"}} emails
-              %li{data: {usage: "chat"}} chat
-              %li{data: {usage: "calls"}} calls
-              %li{data: {usage: "file"}} files
-              %li{data: {usage: "devices"}} devices
+              %li.selected{data: {usage: "emails"}}= t 'usage_emails'
+              %li{data: {usage: "chat"}}= t 'usage_chat'
+              %li{data: {usage: "calls"}}= t 'usage_calls'
+              %li{data: {usage: "file"}}= t 'usage_files'
+              %li{data: {usage: "devices"}}= t 'usage_devices'
 
           %nav.select-platform
             On
             %ul
-              %li.selected{data: {platform: "windows"}} Windows
-              %li{data: {platform: "macos"}} MacOS
-              %li{data: {platform: "linux"}} Linux
-              %li{data: {platform: "iphone"}} iPhone
-              %li{data: {platform: "android"}} Android
+              %li.selected{data: {platform: "windows"}}= t 'platform_windows'
+              %li{data: {platform: "macos"}}= t 'platform_macos'
+              %li{data: {platform: "linux"}}= t 'platform_linux'
+              %li{data: {platform: "iphone"}}= t 'platform_iphone'
+              %li{data: {platform: "android"}}= t 'platform_android'
 
         %ul.howtos
           - @howtos.each do |howto|
@@ -119,30 +118,30 @@
               .howto-description
                 %h3= howto["name"]
                 %p= howto["description"]
-                %a.homepage{href: "#{howto["links"]["homepage"]}", target: "_blank"} Visit website
+                %a.homepage{href: "#{howto["links"]["homepage"]}", target: "_blank"}= t 'howtos_website'
               - if howto["illustration"]
                 .howto-illustration
                   %img{border: "0", src: "#{howto["illustration"]}"}
 
           %li.howto.not-available.hidden
-            %span Not available yet
+            %span= t 'howtos_not_available'
 
     #more
       .container
         %h1.main-title
-          %span Get more info
+          %span= t 'more_info_title'
 
         %ul.more-links
           %li
-            Join a local
+            = t 'more_links_join_local'
             %a{target: "_blank", href: "http://www.cryptoparty.in/"} CryptoParty
 
     #footer
       .container
-        .licence-info
-          This website is licenced under a
-          %a{href: "http://creativecommons.org/licenses/by-sa/3.0/"} Creative Commons by-sa 3.0 licence
+        .license-info
+          = t 'license_info'
+          %a{href: "http://creativecommons.org/licenses/by-sa/3.0/"}= t 'license_cc'
 
         .author
-          Website realised by
+          = t 'author'
           %a{href: "https://twitter.com/manudwarf"} @manudwarf
