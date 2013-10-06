@@ -125,7 +125,7 @@
             %li.howto{data: {usages: "#{howto["usages"]}", platforms: "#{howto["platforms"]}"}}
               .howto-description
                 %h3= howto["name"]
-                %p= howto["description"]
+                %p= howto["description"]["#{I18n.locale}"] || howto["description"]["en"]
                 %a.homepage{href: "#{howto["links"]["homepage"]}", target: "_blank"}= t 'howtos_website'
               - if howto["illustration"]
                 .howto-illustration

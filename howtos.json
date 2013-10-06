@@ -4,7 +4,9 @@
     "platforms": "windows,linux,macos",
     "usages": "emails",
     "illustration": "/images/enigmail.png",
-    "description": "Enigmail is a data encryption and decryption extension for Mozilla Thunderbird that provides OpenPGP public key e-mail encryption and signing. Enigmail works under Microsoft Windows, Unix-like, and Mac OS operating systems.",
+    "description": {
+      "en": "Enigmail is a data encryption and decryption extension for Mozilla Thunderbird that provides OpenPGP public key e-mail encryption and signing. Enigmail works under Microsoft Windows, Unix-like, and Mac OS operating systems."
+    },
     "links": {
       "homepage": "https://www.enigmail.net/home/index.php"
     }
@@ -13,7 +15,9 @@
     "name": "TrueCrypt",
     "platforms": "windows,linux,macos",
     "usages": "devices",
-    "description": "TrueCrypt is a freeware application used for on-the-fly encryption (OTFE). It can create a virtual encrypted disk within a file or encrypt a partition or the entire storage device.",
+    "description": {
+      "en": "TrueCrypt is a freeware application used for on-the-fly encryption (OTFE). It can create a virtual encrypted disk within a file or encrypt a partition or the entire storage device."
+    },
     "links": {
       "homepage": "http://www.truecrypt.org/"
     }
@@ -22,7 +26,9 @@
     "name": "GPG Tools for Mac",
     "platforms": "macos",
     "usages": "emails,files,devices",
-    "description": "Everything you need to get started with secure communication and encrypting files in one simple package.",
+    "description": {
+      "en": "Everything you need to get started with secure communication and encrypting files in one simple package."
+    },
     "links": {
       "homepage": "https://gpgtools.org/"
     }
@@ -31,7 +37,9 @@
     "name": "APG",
     "platforms": "android",
     "usages": "emails,files",
-    "description": "There's no public key encryption for Android yet, but that's an important feature for many of us. APG tries to fill that void, with new features quickly being added.",
+    "description": {
+      "en": "There's no public key encryption for Android yet, but that's an important feature for many of us. APG tries to fill that void, with new features quickly being added."
+    },
     "links": {
       "homepage": "http://www.thialfihar.org/projects/apg/"
     }
