@@ -26,31 +26,39 @@
             %a{href: "/"} WeUsePGP
           .subtitle= t 'header_subtitle'
 
-        %nav.social-links
-          %ul
-            %li
-              %a{href: "https://twitter.com/share?text=#{CGI.escape t('share_text')}&url=#{CGI.escape "http://weusepgp.info"}&via=manudwarf", target: "_blank", rel: "nofollow"}
-                %img{border: "none", src: "/images/twitter_icon.png", alt: "Twitter"}
+        .right-panel
+          %nav.language-select
+            %ul
+              %li
+                %a{href: "/"} English
+              %li
+                %a{href: "/fr"} Français
 
-            %li
-              %a{href: "https://www.facebook.com/sharer.php?u=#{CGI.escape "http://weusepgp.info"}&t=#{CGI.escape t('share_text')}", target: "_blank", rel: "nofollow"}
-                %img{border: "none", src: "/images/facebook_icon.png", alt: "Facebook"}
+          %nav.social-links
+            %ul
+              %li
+                %a{href: "https://twitter.com/share?text=#{CGI.escape t('share_text')}&url=#{CGI.escape "http://weusepgp.info"}&via=manudwarf", target: "_blank", rel: "nofollow"}
+                  %img{border: "none", src: "/images/twitter_icon.png", alt: "Twitter"}
 
-            %li
-              %a{href: "https://plus.google.com/share?url=#{CGI.escape "http://weusepgp.info"}", target: "_blank", rel: "nofollow"}
-                %img{border: "none", src: "/images/gplus_icon.png", alt: "Google Plus"}
+              %li
+                %a{href: "https://www.facebook.com/sharer.php?u=#{CGI.escape "http://weusepgp.info"}&t=#{CGI.escape t('share_text')}", target: "_blank", rel: "nofollow"}
+                  %img{border: "none", src: "/images/facebook_icon.png", alt: "Facebook"}
 
-            %li
-              %a{href: "https://www.linkedin.com/shareArticle?mini=true&url=#{CGI.escape "http://weusepgp.info"}&title=#{CGI.escape t('share_text')}", target: "_blank", rel: "nofollow"}
-                %img{border: "none", src: "/images/linkedin_icon.png", alt: "Linked In"}
+              %li
+                %a{href: "https://plus.google.com/share?url=#{CGI.escape "http://weusepgp.info"}", target: "_blank", rel: "nofollow"}
+                  %img{border: "none", src: "/images/gplus_icon.png", alt: "Google Plus"}
 
-            %li
-              %a{href: "mailto:?subject=#{CGI.escape t('share_text')}&body=#{CGI.escape "http://weusepgp.info"}", target: "_blank", rel: "nofollow"}
-                %img{border: "none", src: "/images/email_icon.png", alt: "Email"}
+              %li
+                %a{href: "https://www.linkedin.com/shareArticle?mini=true&url=#{CGI.escape "http://weusepgp.info"}&title=#{CGI.escape t('share_text')}", target: "_blank", rel: "nofollow"}
+                  %img{border: "none", src: "/images/linkedin_icon.png", alt: "Linked In"}
 
-            %li
-              %a{href: "https://flattr.com/submit/auto?user_id=manudwarf&url=http%3A%2F%2Fweusepgp.info%2F", target: "_blank", rel: "nofollow"}
-                %img{border: "none", src: "/images/flattr_icon.png", alt: "Flattr"}
+              %li
+                %a{href: "mailto:?subject=#{CGI.escape t('share_text')}&body=#{CGI.escape "http://weusepgp.info"}", target: "_blank", rel: "nofollow"}
+                  %img{border: "none", src: "/images/email_icon.png", alt: "Email"}
+
+              %li
+                %a{href: "https://flattr.com/submit/auto?user_id=manudwarf&url=http%3A%2F%2Fweusepgp.info%2F", target: "_blank", rel: "nofollow"}
+                  %img{border: "none", src: "/images/flattr_icon.png", alt: "Flattr"}
 
     #whatisit
       .container
