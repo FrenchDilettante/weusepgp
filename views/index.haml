@@ -23,7 +23,7 @@
       .container
         .hgroup
           %h1
-            %a{href: "/"} WeUsePGP
+            %a{href: "#{request.url}"} WeUsePGP
           .subtitle= t 'header_subtitle'
 
         .right-panel
@@ -37,23 +37,23 @@
           %nav.social-links
             %ul
               %li
-                %a{href: "https://twitter.com/share?text=#{CGI.escape t('share_text')}&url=#{CGI.escape "http://weusepgp.info"}&via=manudwarf", target: "_blank", rel: "nofollow"}
+                %a{href: "https://twitter.com/share?text=#{CGI.escape t('share_text')}&url=#{CGI.escape "#{request.url}"}&via=manudwarf", target: "_blank", rel: "nofollow"}
                   %img{border: "none", src: "/images/twitter_icon.png", alt: "Twitter"}
 
               %li
-                %a{href: "https://www.facebook.com/sharer.php?u=#{CGI.escape "http://weusepgp.info"}&t=#{CGI.escape t('share_text')}", target: "_blank", rel: "nofollow"}
+                %a{href: "https://www.facebook.com/sharer.php?u=#{CGI.escape "#{request.url}"}&t=#{CGI.escape t('share_text')}", target: "_blank", rel: "nofollow"}
                   %img{border: "none", src: "/images/facebook_icon.png", alt: "Facebook"}
 
               %li
-                %a{href: "https://plus.google.com/share?url=#{CGI.escape "http://weusepgp.info"}", target: "_blank", rel: "nofollow"}
+                %a{href: "https://plus.google.com/share?url=#{CGI.escape "#{request.url}"}", target: "_blank", rel: "nofollow"}
                   %img{border: "none", src: "/images/gplus_icon.png", alt: "Google Plus"}
 
               %li
-                %a{href: "https://www.linkedin.com/shareArticle?mini=true&url=#{CGI.escape "http://weusepgp.info"}&title=#{CGI.escape t('share_text')}", target: "_blank", rel: "nofollow"}
+                %a{href: "https://www.linkedin.com/shareArticle?mini=true&url=#{CGI.escape "#{request.url}"}&title=#{CGI.escape t('share_text')}", target: "_blank", rel: "nofollow"}
                   %img{border: "none", src: "/images/linkedin_icon.png", alt: "Linked In"}
 
               %li
-                %a{href: "mailto:?subject=#{CGI.escape t('share_text')}&body=#{CGI.escape "http://weusepgp.info"}", target: "_blank", rel: "nofollow"}
+                %a{href: "mailto:?subject=#{CGI.escape t('share_text')}&body=#{CGI.escape "#{request.url}"}", target: "_blank", rel: "nofollow"}
                   %img{border: "none", src: "/images/email_icon.png", alt: "Email"}
 
               %li
