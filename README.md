@@ -17,6 +17,14 @@ TODO-list
   * Enhance the design
 
 
+Add a translation
+-----------------
+
+# Copy `tr/en.yml`
+# Translate it
+# Add the language to `views/index.haml` (around line 30)
+
+
 Run locally
 -----------
 
