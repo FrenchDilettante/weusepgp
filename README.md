@@ -20,9 +20,9 @@ TODO-list
 Add a translation
 -----------------
 
-# Copy `tr/en.yml`
-# Translate it
-# Add the language to `views/index.haml` (around line 30)
+  1. Copy `tr/en.yml`
+  2. Translate it
+  3. Add the language to `views/index.haml` (around line 30)
 
 
 Run locally
