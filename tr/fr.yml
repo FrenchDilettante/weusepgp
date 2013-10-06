@@ -1,36 +1,36 @@
 fr:
-  meta_description: "Explique les basiques du chiffrement et de la signature PGP et donne les outils pour les utiliser."
-  meta_title: "Parce que la vie privée compte - We Use PGP"
+  meta_description: "Présente les bases du chiffrement et de la signature PGP et donne les outils pour les utiliser."
+  meta_title: "Parce que la vie privée, c'est important - We Use PGP"
 
-  help_contribute: "Salut ! Ce site est en plein chantier. Si vous l'aimez, vous êtes le bienvenu pour l'améliorer !"
+  help_contribute: "Salut ! Ce site est en plein chantier. Si vous l'aimez, n'hésitez pas à l'améliorer !"
 
-  header_subtitle: "Parce que la vie privée compte"
+  header_subtitle: "Parce que la vie privée, c'est important"
 
   share_text: "Qu'est-ce que PGP ? Comment l'utiliser pour protéger votre privée ?"
 
   whatisit_title: "Qu'est-ce que PGP ?"
-  whatisit_description_1: "PGP est un outil informatique pour garder votre vie privée..."
-  whatisit_description_2: "Eh bien, privée."
+  whatisit_description_1: "PGP est un outil informatique pour maintenir votre vie privée..."
+  whatisit_description_2: "...et bien, privée."
 
   uses_encryption_title: "Chiffrement"
-  uses_encryption_description: "Grâce à des algorithmes éprouvés, vos fichiers et vos communications ne seront lisibles que par ceux que vous le voulez."
+  uses_encryption_description: "Grâce à des algorithmes éprouvés, vos fichiers et vos communications ne seront lisibles que par les personnes de votre choix."
 
   uses_signing_title: "Signature"
-  uses_signing_description: "Tout comme une signature manuscrite, une signature numérique prouve que seul l'auteur a pu l'écrire. PGP renforce la confiance."
+  uses_signing_description: "Une signature numérique, comme une manuscrite, prouve que son auteur seul a pu écrire le message. PGP renforce la confiance."
 
   why_use_it: "Pourquoi l'utiliser ?"
 
   reasons_private_title: "Privé"
-  reasons_private_description: "Parce que la vie privée compte. Internet est formidable pour communiquer, il est aussi facile de se faire espionner par des amis curieux, des voisins ou des gouvernements."
+  reasons_private_description: "La vie privée est importante. Internet est un outil formidable, mais il est aussi très facile d'être espionné par des amis curieux, des voisins ou des gouvernements."
   reasons_simple_title: "Simple"
-  reasons_simple_description: "Ne changez ni vos habitudes, ni vos emails ni vos contacts. La seule différence est que est que si quelqu'un d'autre utilise PGP, votre conversation restera privée."
+  reasons_simple_description: "Ne changez ni vos habitudes, ni vos emails, ni vos contacts. La seule différence est que est que si votre interlocuteur utilise également PGP, votre conversation restera privée."
   reasons_free_title: "Libre"
-  reasons_free_description: "PGP est libre et gratuit. Vous n'avez pas besoin de payer quoi que ce soit et les spécifications sont ouvertes et testées par une communauté mondiale."
+  reasons_free_description: "PGP est libre et gratuit. Vous n'avez rien à payer, et les spécifications techniques sont ouvertes et testées par une communauté mondiale."
 
   how_to_use_it: "Comment l'utiliser ?"
 
   usage_emails: "emails"
-  usage_chat: "chat"
+  usage_chat: "tchat"
   usage_calls: "appels"
   usage_files: "fichiers"
   usage_devices: "appareils"
@@ -47,7 +47,7 @@ fr:
   howtos_not_available: "Pas encore disponible"
 
   more_info_title: "Informations supplémentaires"
-  more_links_join_local: "Rejoindre une "
+  more_links_join_local: "Rejoindre un groupe local "
 
   license_info: "Ce site est publié sous"
   license_cc: "Licence Creative Commons by-sa 3.0"
