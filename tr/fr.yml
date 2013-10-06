@@ -10,7 +10,7 @@ fr:
 
   whatisit_title: "Qu'est-ce que PGP ?"
   whatisit_description_1: "PGP est un outil informatique pour maintenir votre vie privée..."
-  whatisit_description_2: "...et bien, privée."
+  whatisit_description_2: "Eh bien, privée."
 
   uses_encryption_title: "Chiffrement"
   uses_encryption_description: "Grâce à des algorithmes éprouvés, vos fichiers et vos communications ne seront lisibles que par les personnes de votre choix."
