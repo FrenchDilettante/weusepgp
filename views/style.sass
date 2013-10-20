@@ -106,6 +106,9 @@ a
         text-align: center
         width: 400px
 
+        img
+          max-width: 100%
+
       &.not-available
         padding-top: 50px
         text-align: center
@@ -168,14 +171,14 @@ h1, h2, h3
   ul
     @include reset-list
 
-    li
-      float: left
-      width: 50%
+  li
+    float: left
+    width: 50%
 
-      p
-        font-size: 18px
-        line-height: 1.4em
-        padding: 0 30px
+    p
+      font-size: 18px
+      line-height: 1.4em
+      padding: 0 30px
 
 nav
   ul
@@ -187,13 +190,13 @@ nav
 
   h2
 
-  li
-    float: left
-    width: 33%
-
   p
     line-height: 1.4em
     padding: 0 10px
+
+  li
+    float: left
+    width: 33%
 
 .select-howto
   overflow: auto
@@ -223,3 +226,57 @@ nav
 
   ul, li
     display: inline-block
+
+@media screen and (max-width: 960px)
+  .container
+    padding: 0 10px
+    width: auto
+
+  .github
+    display: none
+
+  #header
+    .container
+      margin-bottom: 30px
+
+    .hgroup,
+    .right-panel
+      float: none
+
+    .hgroup
+      h1
+        display: block
+
+      .subtitle
+        float: none
+        padding-left: 0
+
+    .language-select
+      display: none
+
+  #howto
+    .howtos
+      .howto
+        .howto-description,
+        .howto-illustration
+          float: none
+          width: auto
+
+  .main-description
+    background: none
+    padding: 0
+    width: auto
+
+  .main-uses,
+  .reasons
+    li
+      float: none
+      padding: 0
+      width: auto
+
+  .select-platform,
+  .select-usage
+    float: none
+    padding: 0
+    text-align: left
+    width: auto
