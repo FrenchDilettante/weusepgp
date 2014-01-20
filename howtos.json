@@ -47,5 +47,17 @@
     "links": {
       "homepage": "http://www.thialfihar.org/projects/apg/"
     }
+  },
+  {
+    "name": "Pidgin",
+    "platforms": "windows,linux,macos",
+    "usages": "chat",
+    "description": {
+      "en": "Pidgin is an open-source multi-platform instant messaging client with support for many commonly used protocols, allowing the user to log into various services from one application. It provides Off-The-Record (OTR) plugin to encrypt your messages.",
+      "fr": "Pidgin est un client de messagerie instantannée libre et multi-platformes qui supporte de nombreux protocoles usuels, permettant à l'utilisateur de se connecter à de nombreux comptes depuis une seule application. Il fournit un plugin pour chiffrer les conversations."
+    },
+    "links": {
+      "homepage": "http://pidgin.im/"
+    }
   }
 ]
