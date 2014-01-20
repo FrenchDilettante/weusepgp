@@ -17,7 +17,7 @@ end
 
 def home
   I18n.backend.load_translations
-  @howtos = JSON.parse(File.read("howtos.json"))
+  @howtos = JSON.parse(File.read("howtos.json", encoding: "UTF-8"))
   haml :index
 end
 
