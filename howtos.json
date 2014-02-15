@@ -5,7 +5,8 @@
     "usages": "emails",
     "illustration": "/images/enigmail.png",
     "description": {
-      "en": "Enigmail is a data encryption and decryption extension for Mozilla Thunderbird that provides OpenPGP public key e-mail encryption and signing. Enigmail works under Microsoft Windows, Unix-like, and Mac OS operating systems."
+      "en": "Enigmail is a data encryption and decryption extension for Mozilla Thunderbird that provides OpenPGP public key e-mail encryption and signing. Enigmail works under Microsoft Windows, Unix-like, and Mac OS operating systems.",
+      "fr": "Enigmail est une extension de signature numérique et de chiffrement pour SeaMonkey et Mozilla Thunderbird, sous Microsoft Windows, GNU/Linux, Mac OS X et d'autres systèmes d'exploitation comme Solaris et FreeBSD, ou même AIX."
     },
     "links": {
       "homepage": "https://www.enigmail.net/home/index.php"
@@ -16,7 +17,8 @@
     "platforms": "windows,linux,macos",
     "usages": "devices",
     "description": {
-      "en": "TrueCrypt is a freeware application used for on-the-fly encryption (OTFE). It can create a virtual encrypted disk within a file or encrypt a partition or the entire storage device."
+      "en": "TrueCrypt is a freeware application used for on-the-fly encryption (OTFE). It can create a virtual encrypted disk within a file or encrypt a partition or the entire storage device.",
+      "fr": "TrueCrypt est un logiciel de chiffrement à la volée. Il permet de créer un disque virtuel chiffré (volume TrueCrypt) contenu dans un fichier et de le monter comme un disque physique réel."
     },
     "links": {
       "homepage": "http://www.truecrypt.org/"
@@ -27,7 +29,8 @@
     "platforms": "macos",
     "usages": "emails,files,devices",
     "description": {
-      "en": "Everything you need to get started with secure communication and encrypting files in one simple package."
+      "en": "Everything you need to get started with secure communication and encrypting files in one simple package.",
+      "fr": "Tout ce dont vous avez besoin pour sécuriser vos communications et chiffrer vos fichiers en un seul package."
     },
     "links": {
       "homepage": "https://gpgtools.org/"
@@ -38,10 +41,23 @@
     "platforms": "android",
     "usages": "emails,files",
     "description": {
-      "en": "There's no public key encryption for Android yet, but that's an important feature for many of us. APG tries to fill that void, with new features quickly being added."
+      "en": "There's no public key encryption for Android yet, but that's an important feature for many of us. APG tries to fill that void, with new features quickly being added.",
+      "fr": "Il n'y a pas encore de chiffrement à clé publique sur Android, mais c'est une fonction importante pour beaucoup d'entre nous. APG comble ce vide, avec de nouvelles fonctions ajoutées régulièrement."
     },
     "links": {
       "homepage": "http://www.thialfihar.org/projects/apg/"
+    }
+  },
+  {
+    "name": "Pidgin",
+    "platforms": "windows,linux,macos",
+    "usages": "chat",
+    "description": {
+      "en": "Pidgin is an open-source multi-platform instant messaging client with support for many commonly used protocols, allowing the user to log into various services from one application. It provides Off-The-Record (OTR) plugin to encrypt your messages.",
+      "fr": "Pidgin est un client de messagerie instantannée libre et multi-platformes qui supporte de nombreux protocoles usuels, permettant à l'utilisateur de se connecter à de nombreux comptes depuis une seule application. Il fournit un plugin pour chiffrer les conversations."
+    },
+    "links": {
+      "homepage": "http://pidgin.im/"
     }
   }
 ]
