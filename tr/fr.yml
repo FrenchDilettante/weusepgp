@@ -1,31 +1,31 @@
 fr:
-  meta_description: "Présente les bases du chiffrement et de la signature PGP et donne les outils pour les utiliser."
-  meta_title: "Parce que la vie privée, c'est important - We Use PGP"
+  meta_description: "Présente les bases du chiffrement et de la signature GnuPG et donne les outils pour les utiliser."
+  meta_title: "Parce que la vie privée, c'est important - We Use GnuPG"
 
   help_contribute: "Salut ! Ce site est en plein chantier. Si vous l'aimez, n'hésitez pas à l'améliorer !"
 
   header_subtitle: "Parce que la vie privée, c'est important"
 
-  share_text: "Qu'est-ce que PGP ? Comment l'utiliser pour protéger votre privée ?"
+  share_text: "Qu'est-ce que GnuPG ? Comment l'utiliser pour protéger votre privée ?"
 
-  whatisit_title: "Qu'est-ce que PGP ?"
-  whatisit_description_1: "PGP est un outil informatique pour maintenir votre vie privée..."
+  whatisit_title: "Qu'est-ce que GnuPG ?"
+  whatisit_description_1: "GnuPG est un outil informatique pour maintenir votre vie privée..."
   whatisit_description_2: "Eh bien, privée."
 
   uses_encryption_title: "Chiffrement"
   uses_encryption_description: "Grâce à des algorithmes éprouvés, vos fichiers et vos communications ne seront lisibles que par les personnes de votre choix."
 
   uses_signing_title: "Signature"
-  uses_signing_description: "Une signature numérique, comme une manuscrite, prouve que son auteur seul a pu écrire le message. PGP renforce la confiance."
+  uses_signing_description: "Une signature numérique, comme une manuscrite, prouve que son auteur seul a pu écrire le message. GnuPG renforce la confiance."
 
   why_use_it: "Pourquoi l'utiliser ?"
 
   reasons_private_title: "Privé"
   reasons_private_description: "La vie privée est importante. Internet est un outil formidable, mais il est aussi très facile d'être espionné par des amis curieux, des voisins ou des gouvernements."
   reasons_simple_title: "Simple"
-  reasons_simple_description: "Ne changez ni vos habitudes, ni vos emails, ni vos contacts. La seule différence est que est que si votre interlocuteur utilise également PGP, votre conversation restera privée."
+  reasons_simple_description: "Ne changez ni vos habitudes, ni vos emails, ni vos contacts. La seule différence est que est que si votre interlocuteur utilise également GnuPG, votre conversation restera privée."
   reasons_free_title: "Libre"
-  reasons_free_description: "PGP est libre et gratuit. Vous n'avez rien à payer, et les spécifications techniques sont ouvertes et testées par une communauté mondiale."
+  reasons_free_description: "GnuPG est libre et gratuit. Vous n'avez rien à payer, et les spécifications techniques sont ouvertes et testées par une communauté mondiale."
 
   how_to_use_it: "Comment l'utiliser ?"
 

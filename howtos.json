@@ -5,7 +5,7 @@
     "usages": "emails",
     "illustration": "/images/enigmail.png",
     "description": {
-      "en": "Enigmail is a data encryption and decryption extension for Mozilla Thunderbird that provides OpenPGP public key e-mail encryption and signing. Enigmail works under Microsoft Windows, Unix-like, and Mac OS operating systems.",
+      "en": "Enigmail is a data encryption and decryption extension for Mozilla Thunderbird that provides OpenGnuPG public key e-mail encryption and signing. Enigmail works under Microsoft Windows, Unix-like, and Mac OS operating systems.",
       "fr": "Enigmail est une extension de signature numérique et de chiffrement pour SeaMonkey et Mozilla Thunderbird, sous Microsoft Windows, GNU/Linux, Mac OS X et d'autres systèmes d'exploitation comme Solaris et FreeBSD, ou même AIX."
     },
     "links": {
