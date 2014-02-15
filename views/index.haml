@@ -18,49 +18,56 @@
       .container
         = t 'help_contribute'
 
-    %a.github{href: "https://github.com/manudwarf/weusepgp"}
-      %img{style: "position: absolute; top: 0; right: 0; border: 0;", src: "https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png", alt: "Fork me on GitHub"}
+    #sidebar-container
+      #sidebar
+
+        %nav.language-select
+          %ul
+            %li
+              %span Other languages
+            %li
+              %a{href: "/"} English
+            %li
+              %a{href: "/fr"} Français
+
+        %nav.social-links
+          %ul
+            %li
+              %span Share on
+
+            %li
+              %a.social-twitter{href: "https://twitter.com/share?text=#{CGI.escape t('share_text')}&url=#{CGI.escape "#{request.url}"}&via=manudwarf", target: "_blank", rel: "nofollow"} Twitter
+
+            %li
+              %a.social-facebook{href: "https://www.facebook.com/sharer.php?u=#{CGI.escape "#{request.url}"}&t=#{CGI.escape t('share_text')}", target: "_blank", rel: "nofollow"} Facebook
+
+            %li
+              %a.social-gplus{href: "https://plus.google.com/share?url=#{CGI.escape "#{request.url}"}", target: "_blank", rel: "nofollow"} Google+
+
+            %li
+              %a.social-linkedin{href: "https://www.linkedin.com/shareArticle?mini=true&url=#{CGI.escape "#{request.url}"}&title=#{CGI.escape t('share_text')}", target: "_blank", rel: "nofollow"} LinkedIn
+
+            %li
+              %a.social-email{href: "mailto:?subject=#{CGI.escape t('share_text')}&body=#{CGI.escape "#{request.url}"}", target: "_blank", rel: "nofollow"} Email
+
+        %nav.support-links
+          %ul
+            %li
+              %span Support
+            %li
+              %a.github{href: "https://github.com/manudwarf/weusepgp"} Fork me on GitHub
+            %li
+              %a.social-flattr{href: "https://flattr.com/submit/auto?user_id=manudwarf&url=http%3A%2F%2Fweusepgp.info%2F", target: "_blank", rel: "nofollow"} Flattr
 
     #header
       .container
         .hgroup
+          %a#sidebar-link{href: "#"}
           %h1
             %a{href: "#{request.url}"} WeUsePGP
           .subtitle= t 'header_subtitle'
 
-        .right-panel
-          %nav.language-select
-            %ul
-              %li
-                %a{href: "/"} English
-              %li
-                %a{href: "/fr"} Français
 
-          %nav.social-links
-            %ul
-              %li
-                %a{href: "https://twitter.com/share?text=#{CGI.escape t('share_text')}&url=#{CGI.escape "#{request.url}"}&via=manudwarf", target: "_blank", rel: "nofollow"}
-                  %img{border: "none", src: "/images/twitter_icon.png", alt: "Twitter"}
-
-              %li
-                %a{href: "https://www.facebook.com/sharer.php?u=#{CGI.escape "#{request.url}"}&t=#{CGI.escape t('share_text')}", target: "_blank", rel: "nofollow"}
-                  %img{border: "none", src: "/images/facebook_icon.png", alt: "Facebook"}
-
-              %li
-                %a{href: "https://plus.google.com/share?url=#{CGI.escape "#{request.url}"}", target: "_blank", rel: "nofollow"}
-                  %img{border: "none", src: "/images/gplus_icon.png", alt: "Google Plus"}
-
-              %li
-                %a{href: "https://www.linkedin.com/shareArticle?mini=true&url=#{CGI.escape "#{request.url}"}&title=#{CGI.escape t('share_text')}", target: "_blank", rel: "nofollow"}
-                  %img{border: "none", src: "/images/linkedin_icon.png", alt: "Linked In"}
-
-              %li
-                %a{href: "mailto:?subject=#{CGI.escape t('share_text')}&body=#{CGI.escape "#{request.url}"}", target: "_blank", rel: "nofollow"}
-                  %img{border: "none", src: "/images/email_icon.png", alt: "Email"}
-
-              %li
-                %a{href: "https://flattr.com/submit/auto?user_id=manudwarf&url=http%3A%2F%2Fweusepgp.info%2F", target: "_blank", rel: "nofollow"}
-                  %img{border: "none", src: "/images/flattr_icon.png", alt: "Flattr"}
 
     #whatisit
       .container

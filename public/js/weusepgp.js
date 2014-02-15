@@ -1,5 +1,17 @@
 $(function() {
 
+  var body = $("body");
+
+  body.on("click", "#sidebar-link", function() {
+    if (body.is(".sidebar-visible")) {
+      body.removeClass("sidebar-visible");
+    } else {
+      body.addClass("sidebar-visible");
+    }
+
+    return false;
+  });
+
   var updateHowTo = function() {
     var platform = $(".select-platform li.selected").attr("data-platform"),
         usage = $(".select-usage li.selected").attr("data-usage"),

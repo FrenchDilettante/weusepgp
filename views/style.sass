@@ -1,5 +1,9 @@
 $backgroundColor: #0B78BD
 $foregroundColor: white
+$sidebarBackgroundColor: #091822
+
+$containerWidth: 960px
+$sidebarWidth: 240px
 
 @mixin reset-list
   list-style: none
@@ -21,8 +25,10 @@ a
 .container
   clear: both
   margin: 0 auto 30px
+  padding-left: $sidebarWidth
+  width: $containerWidth
   overflow: auto
-  width: 960px
+  -webkit-transition: all 0.2s
 
 #footer
   background: $foregroundColor
@@ -31,7 +37,6 @@ a
   padding: 20px 0 40px
 
 #header
-  overflow: auto
 
   a
     text-decoration: none
@@ -40,7 +45,6 @@ a
     margin-bottom: 0
 
   .hgroup
-    float: left
     margin-top: 30px
 
     h1
@@ -53,13 +57,6 @@ a
       letter-spacing: 1px
       padding-left: 10px
       opacity: 0.7
-
-  .language-select
-    text-align: right
-
-    li
-      display: inline
-      margin-left: 8px
 
   .right-panel
     float: right
@@ -227,23 +224,75 @@ nav
   ul, li
     display: inline-block
 
-@media screen and (max-width: 1200px)
-  .github
-    display: none
+#sidebar-container
+  clear: both
+  margin: 0 auto
+  overflow: auto
+  width: $containerWidth + $sidebarWidth
 
-@media screen and (max-width: 980px)
+#sidebar
+  position: absolute
+  top: 85px
+  -webkit-transition: all 0.2s
+
+  &.fixed
+    position: fixed
+    top: 0
+
+  a, span
+    display: block
+    padding: 5px 12px
+
+  a
+    opacity: 0.5
+    text-decoration: none
+
+    &:hover
+      opacity: 1
+
+  span
+    margin-top: 15px
+
+
+#sidebar-link
+  background: url("/images/menu_icon.svg") center no-repeat
+  background-size: 40px 40px
+  display: none
+  float: left
+  height: 40px
+  margin-right: 10px
+  opacity: 0.7
+  width: 40px
+
+  &:hover
+    opacity: 1
+
+
+@media screen and (max-width: $containerWidth + $sidebarWidth + 20px)
+  .container
+    padding-left: 0
+    -webkit-transform: translateX(0)
+
+  #sidebar
+    -webkit-transform: translateX(-$sidebarWidth)
+
+  #sidebar-link
+    display: block
+
+  .sidebar-visible
+    .container
+      -webkit-transform: translateX($sidebarWidth)
+    #sidebar
+      -webkit-transform: translateX(0)
+
+
+
+@media screen and (max-width: $containerWidth)
   .container
     padding: 0 10px
     width: auto
 
   #header
-    .container
-      margin-bottom: 30px
-
-    .hgroup,
-    .right-panel
-      float: none
-
     .hgroup
       h1
         display: block
@@ -251,9 +300,6 @@ nav
       .subtitle
         float: none
         padding-left: 0
-
-    .language-select
-      display: none
 
   #howto
     .howtos
