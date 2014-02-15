@@ -1,7 +1,7 @@
 We Use GnuPG
 ==========
 
-[We Use GnuPG](http://weusepgp.info/) is a website I started to provide a very basic introduction to cryptography for end-users, just like [We Use Coins](https://www.weusecoins.com/en/) for BitCoin.
+[We Use GnuPG](http://weusegnupg.info/) is a website I started to provide a very basic introduction to cryptography for end-users, just like [We Use Coins](https://www.weusecoins.com/en/) for BitCoin.
 
 
 Contribute
