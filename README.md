@@ -11,7 +11,7 @@ TODO-list
 
   - [ ] Establish a list of existing tools in `howtos.json`
   - [ ] Add more "More Information" links
-  - [X] i18n
+  - [x] i18n
   - [ ] Add other languages (de, es, cn, etc.)
   - [ ] Mobile version
   - [ ] Add a difficulty index (help identify easy/hard-to use tools)
