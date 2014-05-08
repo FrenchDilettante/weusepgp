@@ -1,0 +1,56 @@
+oc:
+  meta_description: "Presenta los fondaments del chiframent e de la signatura PGP e dona los otís per l’utilizar."
+  meta_title: "Perque la vida privada, es importanta - We Use PGP"
+
+  help_contribute: "Adieu ! Aqueste site es en òbras. Se vos agrada, podètz o melhorar !"
+
+
+  header_subtitle: "Perque la vida privada, es importanta"
+
+  share_text: "Qu’es aquò PGP ? Cossí l’utilizar per protegir vòstra vida privada ?"
+
+  whatisit_title: "Qu’es aquò PGP ?"
+  whatisit_description_1: "PGP es un otís informatic per téner vòstra vida privda…"
+  whatisit_description_2: "E ben, privada."
+
+  uses_encryption_title: "Chiframent"
+  uses_encryption_description: "Gràcias a d’algorismes provats, vòstres fichièrs e vòstras communicacions seràn solament clars per las personas qu’avètz caussidas."
+
+  uses_signing_title: "Signatura"
+  uses_signing_description: "Una signatura numerica, coma una manuscrita, proba que lo seu quit autor a escrich lo messatge. PGP refortís la confisança."
+
+  why_use_it: "Perque l’utilizar ?"
+
+  reasons_private_title: "Privat"
+  reasons_private_description: "La vida privada es importanta. Internet es un otís formidable, mai òm pòt facilament èsser espionat per d’amics curiós, de vesins o de governs."
+  reasons_simple_title: "Simple"
+  reasons_simple_description: "Ne changez ni vos habitudes, ni vos emails, ni vos contacts. La seule différence est que est que si votre interlocuteur utilise également PGP, votre conversation restera privée."
+  reasons_free_title: "Liure"
+  reasons_free_description: "PGP es liure e a gràtis. Vos cal pas res pagar, e las  especificacion tecnicas son dobertas e testadas per una comunitat mondiala."
+
+  how_to_use_it: "Cossí l’utilizar ?"
+
+  usage_emails: "e-mails"
+  usage_chat: "charras en linha"
+  usage_calls: "sonadas"
+  usage_files: "fichièrs"
+  usage_devices: "maquinas"
+
+  platform_windows: "Windows"
+  platform_macos: "MacOS"
+  platform_linux: "Linux"
+  platform_iphone: "iPhone"
+  platform_android: "Android"
+
+  howtos_for: "Per"
+  howtos_on: "Sus"
+  howtos_website: "Visitar lo site web"
+  howtos_not_available: "Non disponible pel moment"
+
+  more_info_title: "Informacions suplementàrias"
+  more_links_join_local: "Rejónher un grop local "
+
+  license_info: "Aqueste site foguèt publicat sus"
+  license_cc: "Licéncia Creative Commons by-sa 3.0"
+
+  author: "Site realizat per"
