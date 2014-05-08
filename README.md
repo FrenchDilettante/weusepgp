@@ -9,12 +9,13 @@ Contribute
 
 TODO-list
 
-  * Establish a list of existing tools in `howtos.json`
-  * Add more "More Information" links
-  * i18n
-  * Mobile version
-  * Add a difficulty index (help identify easy/hard-to use tools)
-  * Enhance the design
+  - [ ] Establish a list of existing tools in `howtos.json`
+  - [ ] Add more "More Information" links
+  - [X] i18n
+  - [ ] Add other languages (de, es, cn, etc.)
+  - [ ] Mobile version
+  - [ ] Add a difficulty index (help identify easy/hard-to use tools)
+  - [ ] Enhance the design
 
 
 Add a translation
