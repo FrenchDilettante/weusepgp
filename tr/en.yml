@@ -2,7 +2,7 @@ en:
   meta_description: "Explain the basics of PGP encryption and signature and gives the tools to use them."
   meta_title: "Because privacy matters - We Use PGP"
 
-  help_contribute: "Hello ! This website is a Work In Progress. If you like it, you're welcome to improve it!"
+  help_contribute: "Hello! This website is a Work In Progress. If you like it, you're welcome to improve it!"
 
   header_subtitle: "Because privacy matters"
 
@@ -21,9 +21,9 @@ en:
   why_use_it: "Why use it?"
 
   reasons_private_title: "Private"
-  reasons_private_description: "Simply because privacy matters. Internet is a wonderful tool to communicate, it's also very easy to get spied on by curious friends, neighbours or governements."
+  reasons_private_description: "Simply because privacy matters. Internet is a wonderful tool to communicate, it's also very easy to get spied on by curious friends, neighbours or governments."
   reasons_simple_title: "Simple"
-  reasons_simple_description: "Don't change your habits, your emails or your contacts. The only difference is that if you and someone else use PGP, your conversation will stay private."
+  reasons_simple_description: "Don't change your habits, emails or contacts. The only difference is that if you and someone else use PGP, your conversation will stay private."
   reasons_free_title: "Free"
   reasons_free_description: "PGP is free as in free beer and free speech. You don't have to pay anything and the protocol specifications are open and tested by a worldwide community."
 
