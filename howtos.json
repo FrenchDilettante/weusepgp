@@ -13,18 +13,6 @@
     }
   },
   {
-    "name": "TrueCrypt",
-    "platforms": "windows,linux,macos",
-    "usages": "devices",
-    "description": {
-      "en": "TrueCrypt is a freeware application used for on-the-fly encryption (OTFE). It can create a virtual encrypted disk within a file or encrypt a partition or the entire storage device.",
-      "fr": "TrueCrypt est un logiciel de chiffrement à la volée. Il permet de créer un disque virtuel chiffré (volume TrueCrypt) contenu dans un fichier et de le monter comme un disque physique réel."
-    },
-    "links": {
-      "homepage": "http://www.truecrypt.org/"
-    }
-  },
-  {
     "name": "GPG Tools for Mac",
     "platforms": "macos",
     "usages": "emails,files,devices",
